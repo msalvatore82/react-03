@@ -1,0 +1,57 @@
+.display-padre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 10px;
+    align-content: center;
+    font-size: 80px;
+    color: #2b1212;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 
+    0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+.display {
+    display: flex;
+    width: 250px;
+    height: 120px;
+    background-color: black;
+    border: 3px solid gray;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.display-botones {
+    display: flex;
+    flex-direction: row;
+    font-size: 60px;
+    align-items: center;
+    align-self: center;
+    cursor: pointer;
+    background-color: #4fa8fb;
+    margin: 5px;
+    border-radius: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    
+
+}
+
+/* .number{
+    display: flex;
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    border: 3px solid gray;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    text-align: center;
+    
+    
+
+} */
